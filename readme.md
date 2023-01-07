@@ -4,14 +4,16 @@
 
 The most powerful rollup plugin for [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator).
 
+修改了一些内容，支持vite进行分包，对分包后的文件选择行的进行混淆。
+
 ```sh
-yarn add --dev rollup-plugin-obfuscator javascript-obfuscator
+yarn add --dev https://github.com/ba0gu0/rollup-plugin-obfuscator javascript-obfuscator
 ```
 
 or
 
 ```sh
-npm install --save-dev rollup-plugin-obfuscator javascript-obfuscator
+npm install --save-dev https://github.com/ba0gu0/rollup-plugin-obfuscator javascript-obfuscator
 ```
 
 ## Why?

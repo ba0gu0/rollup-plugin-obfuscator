@@ -61,6 +61,8 @@ export default (override: Partial<RollupPluginObfuscatorOptions>): Plugin => {
 			};
 		},
 		renderChunk: options.globalOptions === false ? undefined : (code, { fileName }) => {
+			if (!filter(fileName)) return null;
+			
 			const obfuscationResult = options.obfuscate(code, {
 				...options.globalOptions,
 				inputFileName: fileName,
