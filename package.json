@@ -22,11 +22,11 @@
   },
   "peerDependencies": {
     "javascript-obfuscator": "*",
-    "rollup": "^2.56.3"
+    "rollup": "^3.10.0"
   },
   "devDependencies": {
     "javascript-obfuscator": "^4.0.0",
-    "rollup": "^3.9.1",
+    "rollup": "^3.10.0",
     "typescript": "^4.9.4"
   }
 }
